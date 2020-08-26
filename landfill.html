@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--Landfills-->
+
+<html>
+
+<link rel="icon" href="logo.png" type="image/icon type">
+
+<center>
+
+<head>
+
+
+<style>
+											.clock {
+											  width: 230px;
+											  height: 230px;
+											  border: 1px solid #a1a1a1;
+											  border-radius: 50%;
+											}
+
+											.wrapper {
+											  width: 230px;
+											  height: 230px;
+											  position: absolute;
+											}
+
+											.inner-1, .inner-2 {
+											  border-radius: 10px;
+											  background-color: #a1a1a1;
+											  position: absolute;
+											  top: calc(50% - (10px /2));
+											  left: calc(50% - (10px /2));
+											}
+
+											.inner-1 {
+											  width: 50px;
+											  height: 10px;
+											}
+
+											.inner-2 {
+											  width: 50px;
+											  height: 10px;
+											}
+
+											.rotate-1 {
+											  animation: rotate 1s linear infinite;
+											}
+											.rotate-2 {
+											  animation: rotate 15s linear infinite;
+											}
+
+											@keyframes rotate {
+											  to { transform: rotate(360deg) }
+											}
+											.all{
+												margin-left: 10%;
+											}
+										}
+										* {
+											box-sizing: border-box;
+										}
+										a.nav-link:link
+										{
+											 color: #FFFFFF;
+											 text-decoration: none;
+										}
+										a.nav-link:visited
+										{
+											 color: #FFFFFF;
+											 text-decoration: none;
+										}
+										a.nav-link:hover
+										{
+											 color:#FFFFFF;
+											 text-decoration: none;
+										}
+										a.nav-link:active
+										{
+											 color: #FFFFFF;
+											 text-decoration: none;
+										}
+										.topnav {
+												background-color: #000000;
+												overflow: hidden;
+										}
+										.topnav a {
+												float: left;
+												background-color:	#000000;
+												text-align: center;
+												padding: 14px 16px;
+												text-decoration: none;
+												font-size: 17px;
+												color: white;
+										}
+										.topnav a:hover {
+												background-color: #ddd;
+												color: white;
+										}
+										.topnav a.active {
+												background-color: #ddd;
+												color: white;
+										}
+										.dropdown {
+											float: left;
+											overflow: hidden;
+										}
+										.dropdown .dropbtn {
+											font-size: 17px;
+											border: none;
+											outline: none;
+											color: white;
+											padding: 14px 16px;
+											background-color: inherit;
+											font-family: inherit;
+											margin: 0;
+										}
+										.navbar a:hover, .dropdown:hover .dropbtn {
+											background-color: #ddd;
+										}
+										.dropdown-content {
+											display: none;
+											position: absolute;
+											background-color: #FFFFFF;
+											min-width: 160px;
+											box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+											z-index: 1;
+										}
+										.dropdown-content a {
+											float: none;
+											color: white;
+											padding: 12px 16px;
+											text-decoration: none;
+											display: block;
+											text-align: left;
+										}
+										.dropdown-content a:hover {
+											background-color: #ddd;
+										}
+										.dropdown:hover .dropdown-content {
+											display: block;
+										}
+
+
+
+</style>
+
+<title>Landfills</title>
+
+
+<!--Navbar-->
+<div class="topnav">
+	<a href="homepage.html">Home</a>
+	<div class="dropdown">
+	<button class="dropbtn">Impacts
+			<i class="fa fa-caret-down"></i>
+	</button>
+		<div class="dropdown-content">
+				<a href="workers.html">Workers</a>
+				<a class="active" href="landfill.html">Landfill</a>
+				<a href="cotton.html">Cotton</a>
+				<a href="oceans.html">Oceans</a>
+		</div>
+	</div>
+	<div class="dropdown">
+	<button class="dropbtn">Solutions
+			<i class="fa fa-caret-down"></i>
+	</button>
+		<div class="dropdown-content">
+				<a href="links.html">Safe Clothing</a>
+				<a href="donations.html">Donate</a>
+				<a href="you.html">What can you do?</a>
+		</div>
+	</div>
+	<a href="quiz.html">Quiz</a>
+	<a  href="aboutus.html">About Us</a>
+</div>
+
+
+
+
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Aldrich|Bungee+Hairline&display=swap" rel="stylesheet">
+
+		<link href='impacts.css' rel='stylesheet' type='text/css'>
+
+<br>
+
+		<i>Clothing In Our Landfills</i>
+
+		<br>
+
+</head>
+
+<body>
+
+		<p>
+
+			The clothing and textiles industry is the second-most polluter in the world, so it's no wonder we find it all throughout our
+			ever-growing landfills.
+			The clothing that ends up in landfills can sit there for 200-plus years, and as it decomposes,
+			it emits methane—a greenhouse gas more potent than carbon. Much of what we donate gets packed, shipped,
+			and re-sold overseas or gets dumped in landfills anyway. Right now, less than 1% of collected clothing is recycled into new yarns and fibers. New technologies,
+			like chemical recycling (which separates raw materials from dyes, elastics, etc. for effective use as new textiles) are being developed,
+			but we have a long way to go until they’re fully developed and put into mainstream practice.
+
+		</p>
+
+		<br>
+
+
+
+			<br>
+<div class = "all">
+			<div class="flex-wrapper">
+				<div class="single-chart">
+					<svg viewbox="0 0 36 36" class="circular-chart orange">
+						<path class="circle-bg"
+							d="M18 2.0845
+								a 15.9155 15.9155 0 0 1 0 31.831
+								a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path class="circle"
+							stroke-dasharray="15, 100"
+							d="M18 2.0845
+								a 15.9155 15.9155 0 0 1 0 31.831
+								a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+					<text x="18" y="20.35" class="percentage">15%</text>
+						<p>Approximately <strong>15%</strong> of fabric intended for clothing ends up in waste sites, never being used for clothing at all.</p>
+					</svg>
+				</div>
+
+
+
+
+				<div class="clock">
+				  <div class="wrapper rotate-1">
+				    <div class="inner-1"></div>
+				  </div>
+				  <div class="wrapper rotate-2">
+				    <div class="inner-2"></div>
+
+													<p>Discarded clothing made of non-biodegradable</p>
+													<br>
+													<p> fabrics can sit in landfills for up to <strong>200 years.</strong></p>
+				  </div>
+				</div>
+
+
+				<div class="single-chart">
+					<svg viewbox="0 0 36 36" class="circular-chart blue">
+						<path class="circle-bg"
+							d="M18 2.0845
+								a 15.9155 15.9155 0 0 1 0 31.831
+								a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+						<path class="circle"
+							stroke-dasharray="85 ,100"
+							d="M18 2.0845
+								a 15.9155 15.9155 0 0 1 0 31.831
+								a 15.9155 15.9155 0 0 1 0 -31.831"
+						/>
+					<text x="18" y="20.35" class="percentage">85%</text>
+						<p>In the rare textile recycling programs that exist, about <strong>85%</strong> of this waste goes to landfills.</p>
+					</svg>
+				</div>
+			</div>
+</div>
+<br>
+<br>
+
+
+				<img src="landfill2.jpg">
+
+
+<br>
+<br>
+
+
+</body>
+<br>
+<br>
+<footer>
+
+<!--Footer-->
+
+<div class = "outer">
+	<div class = "wrap">
+		<div class = "sub">
+			<br>
+			<br>
+			<br>
+<center>
+			<b>Works Cited</b>
+			<br>
+			<br>
+			<a href="https://www.thebalancesmb.com/textile-recycling-facts-and-figures-2878122">Textile and Garment Recycling Facts and Figures</a>
+			<br>
+			<a href="https://edgexpo.com/category/sustainable-edge/">Fashion Industry Waste Statistics</a>
+			<br>
+			<a href="https://future.fashion/fashion-revolution-day-germany/fashion-pollutes-water-should-we-really-care">Fashion pollutes water. Should we really care?</a>
+			<br>
+			<a href="https://www.sustainyourstyle.org/old-environmental-impacts">Fashion's Environmental Impact</a>
+		</center>
+		</div>
+		<div class= "sub2">
+			<center>
+			<img id = "logo_idea" src="logo.png" style = "height: 270px; width: 270px ! important;">
+		</center>
+		</div>
+		<div class = "sub3">
+			<center>
+			<br>
+			<br>
+			<br>
+			<b>Mission Statement</b>
+			<p>We believe the true measure of style goes beyond the traditional measurement of profit and return on investment to include social and environmental responsibility.</p>
+		</center>
+		</div>
+	</div>
+</div>
+
+
+<style>
+.outer{
+	padding: 12px;
+}
+.wrap{
+	margin:0 auto;
+}
+.sub{
+	padding:12px;
+	width:32%;
+	height:  100px;
+	display:table-cell;
+	border-right:solid 1px black;
+	text-align: left;
+	margin-top: 10px;
+	vertical-align: top;
+}
+.sub2{
+	padding:12px;
+	width:32%;
+	height:  100px;
+	display:table-cell;
+	border-right:solid 1px black;
+	text-align: left;
+	vertical-align: top;
+
+}
+.sub3{
+	padding:12px;
+	width:32%;
+	height: 100px;
+	display:table-cell;
+	text-align: left;
+	margin-top: 10px;
+	vertical-align: top;
+
+}
+footer {
+	background-color: #cfcfcf;
+}
+
+</style>
+<!--EndFooter-->
+</footer>
+
+</center>
+
+</head>

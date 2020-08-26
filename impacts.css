@@ -1,0 +1,76 @@
+i {
+  font-family: 'Bungee Hairline', cursive;
+	font-size: 40px;
+	border-bottom: 2px solid currentColor;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	margin-left:25%;
+	margin-right: 25%;
+}
+
+img {
+	size: 75%;
+	border-radius: 1%;
+	height: 270px;
+	width: 525px;
+}
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #fffff;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 0.3;
+  stroke-linecap: round;
+  animation: progress 10s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #666;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+html {
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
